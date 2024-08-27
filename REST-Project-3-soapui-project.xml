@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="ceb501d9-7333-4f3c-badf-7c52d2539408" activeEnvironment="Default" name="REST Project 3" soapui-version="5.7.2" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="98883166-c338-4e47-b449-b60fbb18f81c" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:5000" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:5000</con:endpoint></con:endpoints><con:resource name="Signup" path="/signup" id="776f8830-f794-4b6e-a6b9-4f28e80e2023"><con:settings/><con:parameters/><con:method name="Signup 1" id="c3ce12db-7459-4b9d-a0bb-0f5a4458c1f1" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="e2eb9f9d-cac6-4cb3-85cb-f416789f6321" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:5000</con:endpoint><con:request>{"request":
+	{"users":
+		[{"type":"user","username":"greg"},
+		{"type":"user","username":"sarah"},
+		{"type":"user","username":"laura"},
+		{"type":"user","username":"dylan"}],
+	{"chores":
+		[{"name","sweep"},
+		{"name":"mop"},
+		{"name":"cook"},
+		{"name":"laundry"}],
+	{"schedule":
+		{"frequency":"daily",
+		"length_intervals":30,
+		"duration_days":10}}}
+}}</con:request><con:originalUri>http://localhost/signup</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
